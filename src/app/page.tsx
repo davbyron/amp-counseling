@@ -1,4 +1,5 @@
 import { Baskervville } from "next/font/google";
+import { GlowingBall } from "./components";
 import { PiClockFill , PiPhoneFill, PiMapPinFill } from "react-icons/pi";
 
 const baskervville = Baskervville({
@@ -7,8 +8,12 @@ const baskervville = Baskervville({
 
 export default async function Home() {
   return (
-    <div className="h-full px-5 flex flex-col items-center gap-48">
-      <header className="w-full flex justify-between items-center">
+    <div className="relative h-full px-5 flex flex-col items-center gap-48">
+      <GlowingBall size={180} top="60%" right="40%" shadowSize="xl" />
+      <GlowingBall size={96} top="30%" right="10%" shadowSize="md" />
+      <GlowingBall size={24} top="10%" right="10%" shadowSize="md" />
+
+      <header className="w-full flex justify-between items-center z-10">
         <img
           src="/amp-counseling-logo.svg"
           alt="AMP Counseling Logo"
@@ -28,15 +33,17 @@ export default async function Home() {
           </div>
         </address>
       </header>
-      <div className="w-1/2 flex flex-col items-center gap-5 text-center">
+
+      <main className="w-1/2 flex flex-col items-center gap-5 text-center z-10">
         <h1 className={`${baskervville.className} text-5xl font-medium`}>
           Aislyn M Plath Counseling 
         </h1>
         <h2 className="text-lg">
           Collaborative and affirming mental health counseling
         </h2>
-      </div>
-      <footer className="w-full mt-auto mb-5 flex flex-col gap-2">
+      </main>
+
+      <footer className="w-full mt-auto mb-5 flex flex-col gap-2 z-10">
         <p className="flex items-center gap-2">
           <PiClockFill />
           <span>Monday - Thursday 11am-7pm</span>

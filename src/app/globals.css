@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
 @theme {
+  --color-yellow-light: #fff6d4;
+  --color-yellow-pale: #fcd48b;
 
+  --color-gray-dark: #3d3b3a;
+
+  --shadow-ball-sm: 0.25rem 0.5rem 1rem rgb(252, 212, 139, 0.75);
+  --shadow-ball: 0.5rem 0.75rem 2rem rgb(252, 212, 139, 0.75);
+  --shadow-ball-xl: 0.5rem 2rem 8rem rgb(252, 212, 139, 0.75);
 }
