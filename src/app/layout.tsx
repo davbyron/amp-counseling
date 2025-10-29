@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`h-screen ${dmSans.className} text-gray-dark antialiased`}
+        className={`h-screen overflow-hidden ${dmSans.className} text-gray-dark antialiased`}
       >
         {children}
       </body>
