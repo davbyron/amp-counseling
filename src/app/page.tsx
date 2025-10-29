@@ -9,9 +9,9 @@ const baskervville = Baskervville({
 export default async function Home() {
   return (
     <div className="relative h-full px-5 flex flex-col items-center gap-48">
-      <GlowingBall size={180} top="60%" right="40%" shadowSize="xl" />
-      <GlowingBall size={96} top="30%" right="10%" shadowSize="md" />
-      <GlowingBall size={24} top="10%" right="10%" shadowSize="md" />
+      <GlowingBall size="45rem" top="60%" right="40%" shadowSize="xl" />
+      <GlowingBall size="22.5rem" top="30%" right="10%" shadowSize="md" />
+      <GlowingBall size="6rem" top="10%" right="10%" shadowSize="md" />
 
       <header className="w-full flex justify-between items-center z-10">
         <img
