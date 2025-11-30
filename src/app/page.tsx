@@ -36,10 +36,10 @@ export default async function Home() {
 
       <main className="w-1/2 flex flex-col items-center gap-5 text-center z-10">
         <h1 className={`${baskervville.className} text-5xl font-medium`}>
-          Aislyn M Plath Counseling 
+          aislyn m plath counseling
         </h1>
         <h2 className="text-lg">
-          Collaborative and affirming mental health counseling
+          collaborative and affirming mental health counseling
         </h2>
       </main>
 
