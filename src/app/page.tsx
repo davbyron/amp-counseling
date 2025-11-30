@@ -1,5 +1,5 @@
 import { Baskervville } from "next/font/google";
-import { GlowingBall } from "./components";
+import { GlowingBall } from "../components";
 import { PiClockFill , PiPhoneFill, PiMapPinFill } from "react-icons/pi";
 
 const baskervville = Baskervville({
