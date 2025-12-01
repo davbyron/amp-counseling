@@ -9,4 +9,7 @@
   --shadow-ball-sm: 0.25rem 0.5rem 1rem rgb(252, 212, 139, 0.75);
   --shadow-ball: 0.5rem 0.75rem 2rem rgb(252, 212, 139, 0.75);
   --shadow-ball-xl: 0.5rem 2rem 8rem rgb(252, 212, 139, 0.75);
+
+  --shadow-header: 0 -3.5rem 8rem rgb(252, 212, 139, 0.25);
+  --shadow-footer: 0 3.5rem 8rem rgb(252, 212, 139, 0.25);
 }
