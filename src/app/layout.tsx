@@ -90,7 +90,7 @@ export default function RootLayout({
             </div>
           </header>
 
-          <main className="w-full z-10 flex-1 overflow-y-scroll">
+          <main className="w-full z-10 flex-1 overflow-y-auto">
             {children}
           </main>
 
