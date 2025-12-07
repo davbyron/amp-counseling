@@ -28,7 +28,7 @@ export default function RootLayout({
       <body
         className={`h-screen overflow-hidden ${dmSans.className} text-gray-dark antialiased`}
       >
-        <div className="relative h-full flex flex-col items-center gap-48">
+        <div className="relative h-full flex flex-col items-center">
           <GlowingBall size="45rem" top="60%" right="40%" shadowSize="xl" />
           <GlowingBall size="22.5rem" top="30%" right="10%" shadowSize="md" />
           <GlowingBall size="6rem" top="10%" right="10%" shadowSize="md" />
@@ -90,7 +90,7 @@ export default function RootLayout({
             </div>
           </header>
 
-          <main className="w-full z-10">
+          <main className="w-full z-10 flex-1 overflow-y-scroll">
             {children}
           </main>
 

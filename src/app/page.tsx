@@ -6,7 +6,7 @@ const baskervville = Baskervville({
 
 export default async function Home() {
   return (
-    <div className="mx-auto w-1/2 flex flex-col items-center gap-5 text-center z-10">
+    <div className="h-full mx-auto w-1/2 flex flex-col items-center justify-center gap-5 text-center z-10">
       <h1 className={`${baskervville.className} text-5xl font-medium`}>
         aislyn m plath counseling
       </h1>
