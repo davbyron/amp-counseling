@@ -5,7 +5,7 @@ export default async function AboutFeesPage() {
   const { h1, h2 } = headings();
 
   return (
-    <div className="py-20 mx-auto w-1/2 flex flex-col gap-10">
+    <div className="py-16 mx-auto w-1/2 flex flex-col gap-10">
       <h1 className={h1({ className: "flex items-center gap-3" })}>
         <LuBadgeInfo />
         About/Fees
