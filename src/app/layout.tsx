@@ -34,11 +34,15 @@ export default function RootLayout({
           <GlowingBall size="6rem" top="10%" right="10%" shadowSize="md" />
 
           <header className="px-5 w-full flex justify-between items-center z-10 backdrop-blur-lg shadow-header">
-            <img
-              src="/amp-counseling-logo.svg"
-              alt="AMP Counseling Logo"
-              className="size-30"
-            />
+            <Link
+              href="/"
+            >
+              <img
+                src="/amp-counseling-logo.svg"
+                alt="AMP Counseling Logo"
+                className="size-30"
+              />
+            </Link>
             <div className="flex items-center gap-20">
               <nav className={`${baskervville.className} flex gap-20 font-semibold`}>
                 <Link
